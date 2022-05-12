@@ -6,20 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://jiang-xin-859300.github.io">
-  <title>moveit | Make a dream</title><meta name="robots" content="noindex">
+  <title>Git | Make a dream</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="moveit 连接真实机械臂">
+  <meta name="description" content="Git命令汇总">
 <meta property="og:type" content="article">
-<meta property="og:title" content="moveit">
-<meta property="og:url" content="http://jiang-xin-859300.github.io/2022/05/09/moveit/index.html">
+<meta property="og:title" content="Git">
+<meta property="og:url" content="http://jiang-xin-859300.github.io/2022/05/12/Git/index.html">
 <meta property="og:site_name" content="Make a dream">
-<meta property="og:description" content="moveit 连接真实机械臂">
+<meta property="og:description" content="Git命令汇总">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-09T04:34:15.000Z">
-<meta property="article:modified_time" content="2022-05-12T14:50:35.112Z">
+<meta property="article:published_time" content="2022-05-12T14:55:59.000Z">
+<meta property="article:modified_time" content="2022-05-12T15:24:54.081Z">
 <meta property="article:author" content="Jiang Xin">
-<meta property="article:tag" content="随笔">
-<meta property="article:tag" content="人物">
+<meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Make a dream" type="application/atom+xml">
@@ -70,7 +69,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 1
+			总文章数 3
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -200,7 +199,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-moveit" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Git" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
    
     
@@ -208,18 +207,18 @@
         
   
     <h1 class="article-title" itemprop="name">
-      moveit
+      Git
     </h1>
   
 
         
-        <a href="/2022/05/09/moveit/" class="archive-article-date">
-  	<time datetime="2022-05-09T04:34:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-09</time>
+        <a href="/2022/05/12/Git/" class="archive-article-date">
+  	<time datetime="2022-05-12T14:55:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-12</time>
 </a>
         
       </header>
       <div align="center" class="post-count">
-        字数：8字 | 预计阅读时长：1分钟
+        字数：1.5k字 | 预计阅读时长：6分钟
     </div>
     
     
@@ -232,7 +231,7 @@
 <div id="toc-article" class="toc-article">
     <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
   <strong class="toc-title">文章目录</strong>
-         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#moveit-%E8%BF%9E%E6%8E%A5%E7%9C%9F%E5%AE%9E%E6%9C%BA%E6%A2%B0%E8%87%82"><span class="toc-number">1.</span> <span class="toc-text">moveit 连接真实机械臂</span></a></li></ol>
+         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Git-%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB"><span class="toc-number">1.</span> <span class="toc-text">Git 命令汇总</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-number">1.1.</span> <span class="toc-text">常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E7%89%88%E6%9C%AC%E5%BA%93"><span class="toc-number">1.2.</span> <span class="toc-text">创建一个新的版本库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Push%E7%89%88%E6%9C%AC%E5%BA%93"><span class="toc-number">1.3.</span> <span class="toc-text">Push版本库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E5%B9%B6%E5%88%87%E6%8D%A2%E5%88%86%E6%94%AF"><span class="toc-number">1.4.</span> <span class="toc-text">创建并切换分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86%E7%AD%96%E7%95%A5"><span class="toc-number">1.5.</span> <span class="toc-text">分支管理策略</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB"><span class="toc-number">1.6.</span> <span class="toc-text">命令汇总</span></a></li></ol></li></ol>
        </div>
  <script type="text/javascript">
 function showToc(){
@@ -253,7 +252,71 @@ function showBtn(){
 
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="moveit-连接真实机械臂"><a href="#moveit-连接真实机械臂" class="headerlink" title="moveit 连接真实机械臂"></a>moveit 连接真实机械臂</h1><!-- flag of hidden posts -->
+        <p><strong>Git命令汇总</strong></p>
+<span id="more"></span>
+
+<h1 id="Git-命令汇总"><a href="#Git-命令汇总" class="headerlink" title="Git 命令汇总"></a>Git 命令汇总</h1><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>用户名和邮箱代表身份</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.name</span> <span class="string">&quot;&quot;</span></span><br><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.email</span> <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>.前有空格，添加所有文件到暂存区</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">add</span>  . </span><br></pre></td></tr></table></figure>
+
+<p>添加具体文件到暂存区</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">add</span> readme.txt </span><br></pre></td></tr></table></figure>
+
+<p>告诉仓库，文件已经提交到仓库</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> commit -m <span class="string">&quot;&quot;</span> </span><br></pre></td></tr></table></figure>
+
+<p>查看是否还有文件未提交</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git status</span> </span><br></pre></td></tr></table></figure>
+
+<p>恢复文件</p>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">restore</span> readme.txt </span><br></pre></td></tr></table></figure>
+
+<p>可以看到文件的修改内容</p>
+<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">diff</span> readme.txt </span><br></pre></td></tr></table></figure>
+
+<p>版本回退</p>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard HEAD^     回退到上个版本</span></span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard HEAD^^    回退到前个版本</span></span><br><span class="line">git reser <span class="comment">--hard HEAD~100  回退到前100个版本</span></span><br></pre></td></tr></table></figure>
+
+<p>可以查看所有的日志</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git  <span class="built_in">ref</span>log </span><br></pre></td></tr></table></figure>
+
+<p> 查到对应的版本号后  eg. 6fcfc89</p>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard  6fcfc89  </span></span><br></pre></td></tr></table></figure>
+
+<p><strong>工作区：</strong>就是你在电脑上看到的目录，比如目录下test.git里的文件(.git隐藏目录版本库除外)。或者以后需要再新建的目录文件等等都属于工作区范畴。<br><strong>版本库(Repository)：</strong>工作区有一个隐藏目录.git,这个不属于工作区，这是版本库。其中版本库里面存了很多东西，其中最重要的就是stage(暂存区)，还有Git为我们自动创建了第一个分支master,以及指向master的一个指针HEAD。</p>
+<h2 id="创建一个新的版本库"><a href="#创建一个新的版本库" class="headerlink" title="创建一个新的版本库"></a>创建一个新的版本库</h2><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">echo</span> <span class="string">&quot;# test&quot;</span> &gt;&gt; README.md</span><br><span class="line"><span class="symbol">git</span> init</span><br><span class="line"><span class="symbol">git</span> <span class="keyword">add</span> README.md</span><br><span class="line"><span class="symbol">git</span> commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line"><span class="symbol">git</span> branch -M main</span><br><span class="line"><span class="symbol">git</span> remote <span class="keyword">add</span> origin https:<span class="comment">//github.com/username/test.git</span></span><br><span class="line"><span class="symbol">git</span> <span class="keyword">push</span> -u origin main</span><br></pre></td></tr></table></figure>
+
+<h2 id="Push版本库"><a href="#Push版本库" class="headerlink" title="Push版本库"></a>Push版本库</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https:<span class="regexp">//gi</span>thub.com<span class="regexp">/username/</span>test.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+
+<p>把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。由于远程库是空的，我们第一次推送master分支时，加上了 –u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来,在以后的推送或者拉取时就可以简化命令。推送成功后，可以立刻在github页面中看到远程库的内容已经和本地一模一样了。</p>
+<h2 id="创建并切换分支"><a href="#创建并切换分支" class="headerlink" title="创建并切换分支"></a>创建并切换分支</h2><p>以上都是用的master分支，下面来创建dev分支，然后切换到dev分支上</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">branch </span>dev -<span class="keyword">b </span>表示创建并切换相当于以下两条命令</span><br><span class="line">git <span class="keyword">branch </span>deb</span><br><span class="line">git checkout dev</span><br></pre></td></tr></table></figure>
+
+<p>在dev分支上提交后回到main分支，可以看到main分支上内容没有改变现在我们可以把dev分支上的内容合并到分支master上了，可以在master分支上，使用如下命令 git merge dev 。git merge 命令用于合并指定分支到当前分支上，合并后，再查看可以看到和dev最新提交的是完全一样的。</p>
+<p>总结创建与合并分支命令如下：</p>
+<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">　　查看分支：git branch</span><br><span class="line"></span><br><span class="line">　　创建分支：git branch <span class="keyword">name</span></span><br><span class="line"></span><br><span class="line">　　切换分支：git checkout <span class="keyword">name</span></span><br><span class="line"></span><br><span class="line">　　创建+切换分支：git checkout –b <span class="keyword">name</span></span><br><span class="line"></span><br><span class="line">　　合并某分支到当前分支：git <span class="built_in">merge</span> <span class="keyword">name</span></span><br><span class="line"></span><br><span class="line">　　删除分支：git branch –d <span class="keyword">name</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="分支管理策略"><a href="#分支管理策略" class="headerlink" title="分支管理策略"></a>分支管理策略</h2><p>　　通常合并分支时，git一般使用”Fast forward”模式，在这种模式下，删除分支后，会丢掉分支信息，现在我们来使用带参数 –no-ff来禁用”Fast forward”模式。</p>
+<ol>
+<li>创建一个dev分支。</li>
+<li>修改readme.txt内容。</li>
+<li>添加到暂存区。</li>
+<li>切换回主分支(master)。</li>
+<li>合并dev分支，使用命令 git merge –no-ff  -m “注释” dev</li>
+<li>查看历史记录</li>
+</ol>
+<p>git push origin master		&#x2F;&#x2F;git push origin dev(次分支不必要同步，可以先合并到主分支再push)</p>
+<ol>
+<li>首先，可以试图用git push origin branch-name推送自己的修改.</li>
+<li>如果推送失败，则因为远程分支比你的本地更新早，需要先用git pull试图合并。</li>
+<li>如果合并有冲突，则需要解决冲突，并在本地提交。再用git push origin branch-name推送</li>
+</ol>
+<p>git提供了一种<strong>强制上传</strong>的方式：git push -f ，它会忽略版本不一致等问题，强制将本地库上传的远程库，但是一定要谨慎使用，<strong>因为-f会用本地库覆盖掉远程库</strong>，如果远程库上有重要更新，或者有其他同伴做的修改,也都会被覆盖，所以一定要在确定无严重后果的前提下使用此操作。</p>
+<h2 id="命令汇总"><a href="#命令汇总" class="headerlink" title="命令汇总"></a>命令汇总</h2><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">　　<span class="built_in">mkdir</span>：         XX (创建一个空目录 XX指目录名)</span><br><span class="line"></span><br><span class="line">　　pwd：          显示当前目录的路径。</span><br><span class="line"></span><br><span class="line">　　git init          把当前的目录变成可以管理的git仓库，生成隐藏.git文件。</span><br><span class="line"></span><br><span class="line">　　git add XX       把xx文件添加到暂存区去。</span><br><span class="line"></span><br><span class="line">　　git commit –m “XX”  提交文件 –m 后面的是注释。</span><br><span class="line"></span><br><span class="line">　　git <span class="built_in">status</span>        查看仓库状态</span><br><span class="line"></span><br><span class="line">　　git <span class="built_in">diff</span>  XX      查看XX文件修改了那些内容</span><br><span class="line"></span><br><span class="line">　　git <span class="built_in">log</span>          查看历史记录</span><br><span class="line"></span><br><span class="line">　　git <span class="built_in">reset</span>  --hard HEAD^ 或者 git <span class="built_in">reset</span>  --hard HEAD~ 回退到上一个版本</span><br><span class="line"></span><br><span class="line">　　(如果想回退到<span class="number">100</span>个版本，使用git <span class="built_in">reset</span> –hard HEAD~<span class="number">100</span> )</span><br><span class="line"></span><br><span class="line">　　cat XX         查看XX文件内容</span><br><span class="line"></span><br><span class="line">　　git reflog       查看历史记录的版本号id</span><br><span class="line"></span><br><span class="line">　　git checkout -- XX  把XX文件在工作区的修改全部撤销。</span><br><span class="line"></span><br><span class="line">　　git rm XX          删除XX文件</span><br><span class="line"></span><br><span class="line">　　git remote add <span class="built_in">origin</span> https://github.com/tugenhua0707/testgit 关联一个远程库</span><br><span class="line"></span><br><span class="line">　　git <span class="built_in">push</span> –u(第一次要用-u 以后不需要) <span class="built_in">origin</span> master 把当前master分支推送到远程库</span><br><span class="line"></span><br><span class="line">　　git clone https://github.com/tugenhua0707/testgit  从远程库中克隆</span><br><span class="line"></span><br><span class="line">　　git checkout –b dev  创建dev分支 并切换到dev分支上</span><br><span class="line"></span><br><span class="line">　　git branch  查看当前所有的分支</span><br><span class="line"></span><br><span class="line">　　git checkout master 切换回master分支</span><br><span class="line"></span><br><span class="line">　　git merge dev    在当前的分支上合并dev分支</span><br><span class="line"></span><br><span class="line">　　git branch –d dev 删除dev分支</span><br><span class="line"></span><br><span class="line">　　git branch name  创建分支</span><br><span class="line"></span><br><span class="line">　　git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作</span><br><span class="line"></span><br><span class="line">　　git stash list 查看所有被隐藏的文件列表</span><br><span class="line"></span><br><span class="line">　　git stash <span class="built_in">apply</span> 恢复被隐藏的文件，但是内容不删除</span><br><span class="line"></span><br><span class="line">　　git stash drop 删除文件</span><br><span class="line"></span><br><span class="line">　　git stash <span class="built_in">pop</span> 恢复文件的同时 也删除文件</span><br><span class="line"></span><br><span class="line">　　git remote 查看远程库的信息</span><br><span class="line"></span><br><span class="line">　　git remote –v 查看远程库的详细信息</span><br><span class="line"></span><br><span class="line">　　git <span class="built_in">push</span> <span class="built_in">origin</span> master  Git会把master分支推送到远程库对应的远程分支上</span><br></pre></td></tr></table></figure>
+
+
       
 
       
@@ -266,17 +329,24 @@ function showBtn(){
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">人物</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">学习</a>
         		</li>
       		
 		</ul>
 	</div>
 
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/命令汇总//" class="article-tag-list-link color5">命令汇总</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -292,6 +362,25 @@ function showBtn(){
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2022/05/12/hexo%E5%91%BD%E4%BB%A4/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          hexo命令
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/05/12/Audrey-Hepburn/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Audrey Hepburn（奥黛丽·赫本）</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -455,6 +544,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">学习</a>
               </li>
             
             <div class="clearfix"></div>
