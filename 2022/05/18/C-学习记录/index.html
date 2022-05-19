@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://jiang-xin-859300.github.io">
   <title>C++学习记录 | Make a dream</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="今天在哔哩哔哩上看的鱼C的C++快速入门，体验很棒！草率记录下，方便回忆复习。https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Ps411w73m?p&#x3D;43&amp;spm_id_from&#x3D;pageDriver">
+  <meta name="description" content="今天在哔哩哔哩上看的鱼C的C++快速入门，体验很棒！草率记录下，方便回忆复习。https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Ps411w73m?p&#x3D;43&amp;spm_id_from&#x3D;pageDriver 小甲鱼有言  专注那些我们应该去做的事情，并坚持下去！ 一片飘落的树叶最终落在哪里，决定他的是上帝。至于我们，正如那片树叶一般，去努力想着我们的目标飞行就足够了 至于上帝">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C++学习记录">
 <meta property="og:url" content="http://jiang-xin-859300.github.io/2022/05/18/C-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="Make a dream">
-<meta property="og:description" content="今天在哔哩哔哩上看的鱼C的C++快速入门，体验很棒！草率记录下，方便回忆复习。https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Ps411w73m?p&#x3D;43&amp;spm_id_from&#x3D;pageDriver">
+<meta property="og:description" content="今天在哔哩哔哩上看的鱼C的C++快速入门，体验很棒！草率记录下，方便回忆复习。https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Ps411w73m?p&#x3D;43&amp;spm_id_from&#x3D;pageDriver 小甲鱼有言  专注那些我们应该去做的事情，并坚持下去！ 一片飘落的树叶最终落在哪里，决定他的是上帝。至于我们，正如那片树叶一般，去努力想着我们的目标飞行就足够了 至于上帝">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-18T13:33:41.000Z">
-<meta property="article:modified_time" content="2022-05-19T04:44:06.588Z">
+<meta property="article:modified_time" content="2022-05-19T16:45:13.830Z">
 <meta property="article:author" content="Jiang Xin">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -224,7 +224,7 @@
         
       </header>
       <div align="center" class="post-count">
-        字数：3.9k字 | 预计阅读时长：14分钟
+        字数：5.7k字 | 预计阅读时长：21分钟
     </div>
     
     
@@ -237,7 +237,7 @@
 <div id="toc-article" class="toc-article">
     <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
   <strong class="toc-title">文章目录</strong>
-         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C"><span class="toc-number">1.</span> <span class="toc-text">C++</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD"><span class="toc-number">1.1.</span> <span class="toc-text">函数重载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD%E7%9A%84"><span class="toc-number">1.1.1.</span> <span class="toc-text">C++ 是如何做到函数重载的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%94%E5%90%88Union"><span class="toc-number">1.1.2.</span> <span class="toc-text">联合Union</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enum-%E5%88%AB%E5%90%8D"><span class="toc-number">1.1.3.</span> <span class="toc-text">enum 别名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="toc-number">1.1.4.</span> <span class="toc-text">构造函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.1.5.</span> <span class="toc-text">析构器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#This%E6%8C%87%E9%92%88"><span class="toc-number">1.1.6.</span> <span class="toc-text">This指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E7%BB%A7%E6%89%BF"><span class="toc-number">1.1.7.</span> <span class="toc-text">类的继承</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E6%9E%84%E9%80%A0%E5%99%A8%E5%92%8C%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.2.</span> <span class="toc-text">继承机制中的构造器和析构器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%AD%A6%E8%80%85%E6%B3%A8%E6%84%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text">初学者注意</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6"><span class="toc-number">1.2.2.</span> <span class="toc-text">访问控制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A6%86%E7%9B%96%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.3.</span> <span class="toc-text">覆盖方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E8%BD%BD%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.</span> <span class="toc-text">重载方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8B%E5%85%83%E5%85%B3%E7%B3%BB"><span class="toc-number">1.2.5.</span> <span class="toc-text">友元关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%B1%9E%E6%80%A7%E5%92%8C%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.</span> <span class="toc-text">静态属性和静态方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%96%B9%E5%BC%8F"><span class="toc-number">1.2.7.</span> <span class="toc-text">C++内存分配方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%B9%E5%99%A8%E2%80%94%E2%80%94%E5%90%91%E9%87%8FVector"><span class="toc-number">1.2.8.</span> <span class="toc-text">容器——向量Vector</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E5%99%A8"><span class="toc-number">1.2.9.</span> <span class="toc-text">迭代器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8"><span class="toc-number">1.2.10.</span> <span class="toc-text">C++预处理器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.11.</span> <span class="toc-text">链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E7%B1%BB%EF%BC%88storage-class"><span class="toc-number">1.2.12.</span> <span class="toc-text">存储类（storage class)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.13.</span> <span class="toc-text">变量的链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%EF%BC%88%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B%EF%BC%89"><span class="toc-number">1.2.14.</span> <span class="toc-text">函数模板（泛型编程）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E6%A8%A1%E6%9D%BF"><span class="toc-number">1.2.15.</span> <span class="toc-text">类模板</span></a></li></ol></li></ol></li></ol>
+         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C"><span class="toc-number">1.</span> <span class="toc-text">C++</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD"><span class="toc-number">1.1.</span> <span class="toc-text">函数重载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD%E7%9A%84"><span class="toc-number">1.1.1.</span> <span class="toc-text">C++ 是如何做到函数重载的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%94%E5%90%88Union"><span class="toc-number">1.1.2.</span> <span class="toc-text">联合Union</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enum-%E5%88%AB%E5%90%8D"><span class="toc-number">1.1.3.</span> <span class="toc-text">enum 别名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="toc-number">1.1.4.</span> <span class="toc-text">构造函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.1.5.</span> <span class="toc-text">析构器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#This%E6%8C%87%E9%92%88"><span class="toc-number">1.1.6.</span> <span class="toc-text">This指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E7%BB%A7%E6%89%BF"><span class="toc-number">1.1.7.</span> <span class="toc-text">类的继承</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E6%9E%84%E9%80%A0%E5%99%A8%E5%92%8C%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.2.</span> <span class="toc-text">继承机制中的构造器和析构器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%AD%A6%E8%80%85%E6%B3%A8%E6%84%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text">初学者注意</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6"><span class="toc-number">1.2.2.</span> <span class="toc-text">访问控制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A6%86%E7%9B%96%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.3.</span> <span class="toc-text">覆盖方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E8%BD%BD%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.</span> <span class="toc-text">重载方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8B%E5%85%83%E5%85%B3%E7%B3%BB"><span class="toc-number">1.2.5.</span> <span class="toc-text">友元关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%B1%9E%E6%80%A7%E5%92%8C%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.</span> <span class="toc-text">静态属性和静态方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%96%B9%E5%BC%8F"><span class="toc-number">1.2.7.</span> <span class="toc-text">C++内存分配方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%B9%E5%99%A8%E2%80%94%E2%80%94%E5%90%91%E9%87%8FVector"><span class="toc-number">1.2.8.</span> <span class="toc-text">容器——向量Vector</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E5%99%A8"><span class="toc-number">1.2.9.</span> <span class="toc-text">迭代器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8"><span class="toc-number">1.2.10.</span> <span class="toc-text">C++预处理器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.11.</span> <span class="toc-text">链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E7%B1%BB%EF%BC%88storage-class"><span class="toc-number">1.2.12.</span> <span class="toc-text">存储类（storage class)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.13.</span> <span class="toc-text">变量的链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%EF%BC%88%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B%EF%BC%89"><span class="toc-number">1.2.14.</span> <span class="toc-text">函数模板（泛型编程）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E6%A8%A1%E6%9D%BF"><span class="toc-number">1.2.15.</span> <span class="toc-text">类模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%85%E8%81%94%E5%87%BD%E6%95%B0"><span class="toc-number">1.2.16.</span> <span class="toc-text">内联函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD"><span class="toc-number">1.2.17.</span> <span class="toc-text">运算符重载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD%E5%87%BD%E6%95%B0%E4%BD%9C%E4%B8%BA%E7%B1%BB%E5%8F%8B%E5%85%83%E5%87%BD%E6%95%B0"><span class="toc-number">1.2.18.</span> <span class="toc-text">运算符重载函数作为类友元函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%B0%8FTIPS"><span class="toc-number">1.2.18.1.</span> <span class="toc-text">一些小TIPS</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E8%BD%BD-lt-lt-%E6%93%8D%E4%BD%9C%E7%AC%A6%EF%BC%88%E6%8F%92%E5%85%A5%E5%99%A8%EF%BC%89"><span class="toc-number">1.2.19.</span> <span class="toc-text">重载&lt;&lt;操作符（插入器）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E7%BB%A7%E6%89%BF-multi-inheritance"><span class="toc-number">1.2.20.</span> <span class="toc-text">多继承(multi inheritance)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%99%9A%E7%BB%A7%E6%89%BF%EF%BC%88virtual-inheritance"><span class="toc-number">1.2.21.</span> <span class="toc-text">虚继承（virtual inheritance)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%81%BF%E5%85%8D%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F"><span class="toc-number">1.2.22.</span> <span class="toc-text">避免内存泄漏</span></a></li></ol></li></ol></li></ol>
        </div>
  <script type="text/javascript">
 function showToc(){
@@ -259,7 +259,14 @@ function showBtn(){
     <div class="article-entry" itemprop="articleBody">
       
         <p>今天在哔哩哔哩上看的鱼C的C++快速入门，体验很棒！草率记录下，方便回忆复习。<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ps411w73m?p=43&amp;spm_id_from=pageDriver">https://www.bilibili.com/video/BV1Ps411w73m?p=43&amp;spm_id_from=pageDriver</a></p>
+<p>小甲鱼有言</p>
+<ul>
+<li>专注那些我们应该去做的事情，并坚持下去！</li>
+<li>一片飘落的树叶最终落在哪里，决定他的是上帝。至于我们，正如那片树叶一般，去努力想着我们的目标飞行就足够了</li>
+<li>至于上帝的眷顾嘛？大家都知道，机会总是留给有准备的人。只有你朝着梦想去努力追求，才有可能实现梦想，而在困难与挫折面前停滞不前，忧虑苦闷肯定不属于追求梦想的范畴！</li>
+</ul>
 <span id="more"></span>
+
 <h1 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h1><h2 id="函数重载"><a href="#函数重载" class="headerlink" title="函数重载"></a>函数重载</h2><p>函数的重载的规则：</p>
 <ul>
 <li>函数名称必须相同。</li>
@@ -520,12 +527,99 @@ function showBtn(){
 <li>为明确地表明<code>swap（）</code>是一个函数模板，还可以使用<code>swap&lt;int&gt;(i1,i2)</code>语法来调用这个函数。这将明确地告诉编译器它应该使用哪一种类型。</li>
 </ul>
 <h3 id="类模板"><a href="#类模板" class="headerlink" title="类模板"></a>类模板</h3><p> 类模板与函数模板非常相似：同样是由你编写一个类的模板，再由编译器在你第一次使用这个模板时生成实际代码。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">T</span>&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyClass</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">		<span class="built_in">MyClass</span>();</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">swap</span><span class="params">(T &amp;a , T &amp;b)</span>；</span></span><br><span class="line"><span class="function">&#125;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">T</span>&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyClass</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">		<span class="built_in">MyClass</span>();</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">swap</span><span class="params">(T &amp;a , T &amp;b)</span>；</span></span><br><span class="line"><span class="function">&#125;；</span></span><br></pre></td></tr></table></figure>
 
 <p>构造器的实现将是下面这样：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MyClass&lt;T&gt;::<span class="built_in">MyClass</span>()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//初始化操作</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>![(C-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95&#x2F;image-20220519124129101.png)</p>
+<p>因为<code>MyClass</code>是一个类模板，所以不能只写出<code>MyClass::MyClass()</code>,编译器需要你在这里给出一种与<code>MyClass()</code>配合使用的数据类型，必须在尖括号里提供它。因为没有确定的数据类型可以提供，所以使用一个T作为占位符即可。</p>
+<p><strong>注意：</strong></p>
+<p>C++并没有限制只能使用一个类型占位符，如果类模板需要一种以上的类型，根据具体情况多使用几个占位符即可。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">T</span>,<span class="keyword">class</span> <span class="title class_">U</span>&gt;</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">MyClass</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//... ...</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<p>在实例化的时候我们只需要这么做： <code>MyClass&lt;int,float&gt;myClass;</code></p>
+<h3 id="内联函数"><a href="#内联函数" class="headerlink" title="内联函数"></a>内联函数</h3><p>引入内联函数的目的是解决程序中函数调用的效率问题。</p>
+<p>内联函数从源代码看有函数的结构，而在编译后，却不具备函数的性质。编译时，类似宏替换，使用函数体替换调用处的函数名。</p>
+<p>一般在代码中用inline修饰，但能否形成内联函数，需要看编译器对该函数定义的具体处理。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">add</span><span class="params">(intx ,<span class="type">int</span> y, <span class="type">int</span> z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x+y+z;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在程序中，调用其函数时，该函数在编译时被替代，而不像一般函数那样是在运行时被调用。</p>
+<p>在创建类模板时，避免类声明和类定义相分离的一个好办法是使用内联方法。</p>
+<p>在类里，内联方法的基本含义是在声明该方法的同时还对它进行定义。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">Person</span>(std::string name)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">this</span>-&gt;name = name;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//....</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>除了可以更好地帮助编译器处理类模板之外，使用内联方法还有一个很好的作用：可以让你少打些字并让源代码的可读性变得更好（把所有东西都直接写到类里）。</p>
+<h3 id="运算符重载"><a href="#运算符重载" class="headerlink" title="运算符重载"></a>运算符重载</h3><p>运算符重载的方法是定义一个重载运算符的函数，在需要执行被重载的运算符时，系统就自动调用该函数，以实现相应的运算。，也就是说运算符的重载是定义函数实现的。<strong>运算符重载实质上是函数的重载。</strong></p>
+<p> 重载运算符的函数一般格式如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">函数类型 <span class="keyword">operator</span> 运算符名称（形参表列）</span><br><span class="line">&#123;</span><br><span class="line">    对运算符的重载处理</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>例如我们可以重载运算符+，如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="keyword">operator</span>+(<span class="type">int</span> a ,<span class="type">int</span> b)</span><br><span class="line">&#123; </span><br><span class="line">    <span class="keyword">return</span>(a-b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><strong>C++不允许用户自己定义新的运算符，只能对已有的C++运算符进行重载。</strong></li>
+<li>除了以下五个不允许重载外，其他运算符都允许重载。<ul>
+<li>.（成员访问运算符）</li>
+<li>.*（成员指针访问运算符）</li>
+<li>::（域运算符）</li>
+<li>sizeof（尺寸运算符）</li>
+<li>?:（条件运算符）</li>
+</ul>
+</li>
+<li>重载不能改变运算符运算对象（操作数）个数</li>
+<li>重载不能改变运算符的优先级别  </li>
+<li>重载不能改变运算符的结合性</li>
+<li>重载运算符的函数不能有默认的参数。</li>
+<li>重载运算符必须和用户定义的自定义类型的对象一起使用。也就是说，参数不能全部都是C++的标准类型，这样约定是为了防止用户修改用于标准类型结构的运算符性质）。</li>
+</ol>
+<h3 id="运算符重载函数作为类友元函数"><a href="#运算符重载函数作为类友元函数" class="headerlink" title="运算符重载函数作为类友元函数"></a>运算符重载函数作为类友元函数</h3><p><strong>“+”运算符是双目运算符，为什么例子中的重载函数只有一个参数？</strong></p>
+<p>答：实际上，运算符重载函数有两个参数，但由于重载函数是Complex类中的成员函数，有一个参数是隐含着的，运算符函数是用this指针隐式地访问类对象的成员的。</p>
+<ul>
+<li><code>return Complex(real+c2.real,imag+c2.imag);</code></li>
+<li><code>return Complex(this-&gt;real+c2.real,this-&gt;imag+c2.imag);</code></li>
+<li><code>return Complex(c1.real+c2.real,c1.imag+c2.imag);</code></li>
+</ul>
+<p>运算符重载除了可以作为类的成员函数外，还可以式非成员函数：放在类外，做Complex类的友元函数存在</p>
+<h4 id="一些小TIPS"><a href="#一些小TIPS" class="headerlink" title="一些小TIPS"></a><strong>一些小TIPS</strong></h4><ul>
+<li>千万不要仅仅因为“我懂得这么做”而去重载一个操作符，应该只在有必要的时候，比如实现一种新的数据类型时，才重载操作符。</li>
+<li>重载操作符的目的是为了让代码更容易阅读和理解。令人遗憾的是，这个技巧常常被人滥用。</li>
+<li>在重载操作符时，千万不要让它们失去原始的意义，你完全重载”+”然后对它进行减法操作，但这决不是创意的表现，在公司这员工必须被开除。</li>
+</ul>
+<h3 id="重载-lt-lt-操作符（插入器）"><a href="#重载-lt-lt-操作符（插入器）" class="headerlink" title="重载&lt;&lt;操作符（插入器）"></a>重载&lt;&lt;操作符（插入器）</h3><blockquote>
+<p>把一个数据插入到流中的函数都是插入器</p>
+</blockquote>
+<h3 id="多继承-multi-inheritance"><a href="#多继承-multi-inheritance" class="headerlink" title="多继承(multi inheritance)"></a>多继承(multi inheritance)</h3><p><strong>什么时候需要用多继承？</strong></p>
+<p>一个student不仅当student,还当teacher（助教），则student同时继承teacher和student类，此时就需要使用多继承。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">TeachingStudent</span> : <span class="keyword">public</span> Student, <span class="keyword">public</span> Teacher</span><br><span class="line">&#123;...&#125;</span><br></pre></td></tr></table></figure>
+
+<p>要求：创建一个由<code>Person</code>,<code>Teacher</code>,<code>Student</code>和<code>Teachingstudent</code>构成的类层次关系。</p>
+<h3 id="虚继承（virtual-inheritance"><a href="#虚继承（virtual-inheritance" class="headerlink" title="虚继承（virtual inheritance)"></a>虚继承（virtual inheritance)</h3><p>在<code>TeachingStudent</code>继承自<code>Student</code>和<code>Teacher</code>时，可能有继承的同名属性的情况</p>
+<p>通过虚继承某个基类，就是在告诉编译器：从当前这个类再派生出来的子类只能拥有那个基类的一个实例。</p>
+<p>虚继承的语法：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Teacher</span> : <span class="keyword">virtual</span> <span class="keyword">public</span> Person</span><br><span class="line">&#123;...&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="避免内存泄漏"><a href="#避免内存泄漏" class="headerlink" title="避免内存泄漏"></a>避免内存泄漏</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> *x</span><br><span class="line">x = <span class="keyword">new</span> <span class="type">int</span>[<span class="number">1000</span>]</span><br><span class="line"><span class="keyword">delete</span>[] x;</span><br><span class="line">x = <span class="literal">NULL</span></span><br></pre></td></tr></table></figure>
+
+<p>如果地址值(x)丢失了，则会发生内存泄漏,地址值会因为很多原因丢失，比如因为一个指针变量被无意中改写。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> *x;</span><br><span class="line">x = <span class="keyword">new</span> <span class="type">int</span>[<span class="number">3000</span>];</span><br><span class="line">x = <span class="keyword">new</span> <span class="type">int</span>[<span class="number">4000</span>];</span><br><span class="line"><span class="keyword">delete</span>[] x;</span><br><span class="line">x = <span class="literal">NULL</span>;</span><br></pre></td></tr></table></figure>
+
+<p>这是导致内存泄漏的情况之一。</p>
+<p>另一种导致内存泄漏的情况是用来保存内存块的地址的指针变量作用域问题。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">foo</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    My Class *x;</span><br><span class="line">    x = <span class="keyword">new</span> <span class="built_in">MyClass</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>当foo()函数结束时，指针变量x将超出它的作用域，这意味着它将不复存在，它的值会丢失。</p>
+<p>两种方法解决这种情况：</p>
+<p>第一种是在return 语句之前的某个地方插入一条delete x语句：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">foo</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    MyClass *x;</span><br><span class="line">    x = <span class="keyword">new</span> <span class="built_in">MyClass</span>();</span><br><span class="line">    <span class="keyword">delete</span> x;</span><br><span class="line">    x = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>第二种是让函数把内存块的地址返回给它的调用者：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">MyClass* <span class="title">foo</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    MyClass* x;</span><br><span class="line">    x = <span class="keyword">new</span> <span class="built_in">MyClass</span>();</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>动态内存不存在作用域的问题，一旦被分配，内存块就可以在程序的任何地方使用。</p>
+<p>因为动态内存没有作用域，所以必须由程序员来跟踪它们的使用情况，并在不需要用到它们的时候把它们及时归还给系统。</p>
+<p>特别需要注意，虽然动态分配的内存块没有作用域，但是用来保存其地址的指针变量是受作用域影响的。</p>
 
       
 
