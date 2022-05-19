@@ -16,7 +16,7 @@
 <meta property="og:description" content="今天在哔哩哔哩上看的鱼C的C++快速入门，体验很棒！草率记录下，方便回忆复习。https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Ps411w73m?p&#x3D;43&amp;spm_id_from&#x3D;pageDriver">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-18T13:33:41.000Z">
-<meta property="article:modified_time" content="2022-05-18T13:36:41.392Z">
+<meta property="article:modified_time" content="2022-05-19T04:44:06.588Z">
 <meta property="article:author" content="Jiang Xin">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -71,7 +71,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 6
+			总文章数 7
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -224,7 +224,7 @@
         
       </header>
       <div align="center" class="post-count">
-        字数：2.9k字 | 预计阅读时长：11分钟
+        字数：3.9k字 | 预计阅读时长：14分钟
     </div>
     
     
@@ -237,7 +237,7 @@
 <div id="toc-article" class="toc-article">
     <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
   <strong class="toc-title">文章目录</strong>
-         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C"><span class="toc-number">1.</span> <span class="toc-text">C++</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD"><span class="toc-number">1.1.</span> <span class="toc-text">函数重载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD%E7%9A%84"><span class="toc-number">1.1.1.</span> <span class="toc-text">C++ 是如何做到函数重载的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%94%E5%90%88Union"><span class="toc-number">1.1.2.</span> <span class="toc-text">联合Union</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enum-%E5%88%AB%E5%90%8D"><span class="toc-number">1.1.3.</span> <span class="toc-text">enum 别名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="toc-number">1.1.4.</span> <span class="toc-text">构造函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.1.5.</span> <span class="toc-text">析构器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#This%E6%8C%87%E9%92%88"><span class="toc-number">1.1.6.</span> <span class="toc-text">This指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E7%BB%A7%E6%89%BF"><span class="toc-number">1.1.7.</span> <span class="toc-text">类的继承</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E6%9E%84%E9%80%A0%E5%99%A8%E5%92%8C%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.2.</span> <span class="toc-text">继承机制中的构造器和析构器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%AD%A6%E8%80%85%E6%B3%A8%E6%84%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text">初学者注意</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6"><span class="toc-number">1.2.2.</span> <span class="toc-text">访问控制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A6%86%E7%9B%96%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.3.</span> <span class="toc-text">覆盖方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E8%BD%BD%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.</span> <span class="toc-text">重载方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8B%E5%85%83%E5%85%B3%E7%B3%BB"><span class="toc-number">1.2.5.</span> <span class="toc-text">友元关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%B1%9E%E6%80%A7%E5%92%8C%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.</span> <span class="toc-text">静态属性和静态方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%96%B9%E5%BC%8F"><span class="toc-number">1.2.7.</span> <span class="toc-text">C++内存分配方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%B9%E5%99%A8%E2%80%94%E2%80%94%E5%90%91%E9%87%8FVector"><span class="toc-number">1.2.8.</span> <span class="toc-text">容器——向量Vector</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E5%99%A8"><span class="toc-number">1.2.9.</span> <span class="toc-text">迭代器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8"><span class="toc-number">1.2.10.</span> <span class="toc-text">C++预处理器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.11.</span> <span class="toc-text">链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E7%B1%BB%EF%BC%88storage-class"><span class="toc-number">1.2.12.</span> <span class="toc-text">存储类（storage class)</span></a></li></ol></li></ol></li></ol>
+         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C"><span class="toc-number">1.</span> <span class="toc-text">C++</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD"><span class="toc-number">1.1.</span> <span class="toc-text">函数重载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD%E7%9A%84"><span class="toc-number">1.1.1.</span> <span class="toc-text">C++ 是如何做到函数重载的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%94%E5%90%88Union"><span class="toc-number">1.1.2.</span> <span class="toc-text">联合Union</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enum-%E5%88%AB%E5%90%8D"><span class="toc-number">1.1.3.</span> <span class="toc-text">enum 别名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="toc-number">1.1.4.</span> <span class="toc-text">构造函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.1.5.</span> <span class="toc-text">析构器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#This%E6%8C%87%E9%92%88"><span class="toc-number">1.1.6.</span> <span class="toc-text">This指针</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E7%9A%84%E7%BB%A7%E6%89%BF"><span class="toc-number">1.1.7.</span> <span class="toc-text">类的继承</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E6%9E%84%E9%80%A0%E5%99%A8%E5%92%8C%E6%9E%90%E6%9E%84%E5%99%A8"><span class="toc-number">1.2.</span> <span class="toc-text">继承机制中的构造器和析构器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%AD%A6%E8%80%85%E6%B3%A8%E6%84%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text">初学者注意</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6"><span class="toc-number">1.2.2.</span> <span class="toc-text">访问控制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A6%86%E7%9B%96%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.3.</span> <span class="toc-text">覆盖方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E8%BD%BD%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.4.</span> <span class="toc-text">重载方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8B%E5%85%83%E5%85%B3%E7%B3%BB"><span class="toc-number">1.2.5.</span> <span class="toc-text">友元关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%B1%9E%E6%80%A7%E5%92%8C%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.6.</span> <span class="toc-text">静态属性和静态方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E6%96%B9%E5%BC%8F"><span class="toc-number">1.2.7.</span> <span class="toc-text">C++内存分配方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%B9%E5%99%A8%E2%80%94%E2%80%94%E5%90%91%E9%87%8FVector"><span class="toc-number">1.2.8.</span> <span class="toc-text">容器——向量Vector</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E5%99%A8"><span class="toc-number">1.2.9.</span> <span class="toc-text">迭代器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8"><span class="toc-number">1.2.10.</span> <span class="toc-text">C++预处理器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.11.</span> <span class="toc-text">链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E7%B1%BB%EF%BC%88storage-class"><span class="toc-number">1.2.12.</span> <span class="toc-text">存储类（storage class)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E9%93%BE%E6%8E%A5%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.2.13.</span> <span class="toc-text">变量的链接和作用域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%EF%BC%88%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B%EF%BC%89"><span class="toc-number">1.2.14.</span> <span class="toc-text">函数模板（泛型编程）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E6%A8%A1%E6%9D%BF"><span class="toc-number">1.2.15.</span> <span class="toc-text">类模板</span></a></li></ol></li></ol></li></ol>
        </div>
  <script type="text/javascript">
 function showToc(){
@@ -466,10 +466,66 @@ function showBtn(){
 <li>每一个变量都有一个存储类，它决定着程序将把变量的值存储在计算机的什么地方、如何存储，以及变量应该有着怎样的作用域。</li>
 <li>默认的存储类是<strong>auto</strong>(自动)，但是我们不会经常看到这个关键字，因为它是默认的</li>
 <li>自动变量存储在称为栈（stack)的临时内存里并有着最小的作用域，当程序执行到语句块或函数末尾的右花括号时，它们将被系统回收（栈回收），不复存在。</li>
-<li>与auto不同的是static,static变量在程序的声明周期内将一直保有它的值而不会消亡，因为它们是存储在静态存储区，生命周期为从申请到程序退出（和全局变量一样）。</li>
+<li>与auto不同的是<strong>static</strong>,static变量在程序的声明周期内将一直保有它的值而不会消亡，因为它们是存储在静态存储区，生命周期为从申请到程序退出（和全局变量一样）。</li>
 <li>static变量可以有external或internal链接。</li>
-<li>第三种存储类是extern,它在有多个翻译单元时非常重要。这个关键字用来把另一个翻译单元里的某个变量声明为本翻译单元里的一个同名全局变量。</li>
+<li>第三种存储类是<strong>extern</strong>,它在有多个翻译单元时非常重要。这个关键字用来把另一个翻译单元里的某个变量声明为本翻译单元里的一个同名全局变量。</li>
+<li>编译器不会为extern变量分配内存，因为在其他地方已经为它分配过内存。</li>
+<li>用extern关键字相当于告诉编译器：“请相信我，我发誓我知道这个变量在其他翻译单元里肯定存在，它只是没在这个文件里声明。”</li>
+<li>存储类<strong>register</strong>,它要求编译器把一个变量存储在CPU的寄存器里。但有着与自动变量相同的作用域。</li>
+<li>register变量存储速度最快，但有些编译器可能不允许使用这类变量</li>
 </ul>
+<h3 id="变量的链接和作用域"><a href="#变量的链接和作用域" class="headerlink" title="变量的链接和作用域"></a>变量的链接和作用域</h3><p>使用编译器编译程序时，实际有三步</p>
+<ol>
+<li>执行预处理器指令（带#号的）</li>
+<li>把.cpp文件编译成.o文件</li>
+<li>把.o文件链接成一个可执行文件。</li>
+</ol>
+<p>链接分为三种情况：</p>
+<ol>
+<li>外链接（external)</li>
+<li>内链接  (internal)</li>
+<li>无链接  (none)</li>
+</ol>
+<p><strong>外链接</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">eg.</span><br><span class="line"><span class="comment">//this.cpp</span></span><br><span class="line"><span class="type">int</span> i1 = <span class="number">1</span>;</span><br><span class="line"><span class="comment">//that.cpp</span></span><br><span class="line"><span class="type">int</span> i2 = i1;</span><br></pre></td></tr></table></figure>
+
+<p>在编译that.cpp文件时，编译器并不知道i1变量的存在。为了解决这个问题，我们可以在that.cpp里使用extern关键字去访问第一个翻译单元的变量。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//this.cpp</span></span><br><span class="line"><span class="type">int</span> i1 = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//that.cpp</span></span><br><span class="line"><span class="keyword">extern</span> <span class="type">int</span> i1;</span><br><span class="line"><span class="type">int</span> i2 = i1;</span><br></pre></td></tr></table></figure>
+
+<p><strong>内链接</strong></p>
+<p>内链接的含义：在某个翻译单元里定义的东西只能在翻译单元里使用，在任何函数以外定义的静态变量都有内链接：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//this.cpp</span></span><br><span class="line"><span class="type">static</span> <span class="type">int</span> d = <span class="number">8</span>;</span><br><span class="line"><span class="comment">//that.cpp</span></span><br><span class="line"><span class="type">static</span> <span class="type">int</span> d = <span class="number">9</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>无链接</strong></p>
+<p>在函数里定义的变量只存在于该函数的内部，根本没有任何链接（none)</p>
+<h3 id="函数模板（泛型编程）"><a href="#函数模板（泛型编程）" class="headerlink" title="函数模板（泛型编程）"></a>函数模板（泛型编程）</h3><p>范型编程技术支持程序员创建函数和类的蓝图，而不是具体的函数和类。</p>
+<p>基本的函数模板语法</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> <span class="title class_">T</span>&gt;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">foo</span><span class="params">(T param)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>第一行代码里，尖括号里的一个<code>classT</code> ，用来告诉编译器：字母T将在接下来的函数里代表一种不确定的数据类型。</li>
+<li>关键字class并不意味着这个是类，这只是一种约定俗成的写法。</li>
+<li>在告诉计算机T是一种类型之后，就可以像对待一种普通数据类型那样使用它了。</li>
+</ol>
+<p>for example:</p>
+<p>交换两个变量的值是几乎所有程序的基本操作。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">swap</span><span class="params">(<span class="type">int</span>&amp;a ,<span class="type">int</span> &amp;b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> tmp = a;</span><br><span class="line">    a = b;</span><br><span class="line">    b = tmp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果想用这个函数交换两个double类型的变量的值，我们需要增加一个swap(double &amp;a, double &amp;b)函数，因为C++支持函数重载，但是我们不得不为每一种数据格式写一种函数。此时，我们只需要为编译器准备一个<strong>模板</strong>即可。</p>
+<p><strong>需要注意的地方：</strong></p>
+<ul>
+<li>创建模板时，还可以用<code>template&lt;typename T&gt;</code>来代替<code>template&lt;class T&gt;</code>，他们的含义是一样的。</li>
+<li>注意，<code>template&lt;class T&gt;</code>中的class并不意味着T只能是一个类</li>
+<li>不要把函数模板分成原型和实现两个部分（全写一起）</li>
+<li>为明确地表明<code>swap（）</code>是一个函数模板，还可以使用<code>swap&lt;int&gt;(i1,i2)</code>语法来调用这个函数。这将明确地告诉编译器它应该使用哪一种类型。</li>
+</ul>
+<h3 id="类模板"><a href="#类模板" class="headerlink" title="类模板"></a>类模板</h3><p> 类模板与函数模板非常相似：同样是由你编写一个类的模板，再由编译器在你第一次使用这个模板时生成实际代码。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">T</span>&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyClass</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">		<span class="built_in">MyClass</span>();</span><br><span class="line">		<span class="function"><span class="type">void</span> <span class="title">swap</span><span class="params">(T &amp;a , T &amp;b)</span>；</span></span><br><span class="line"><span class="function">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>构造器的实现将是下面这样：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MyClass&lt;T&gt;::<span class="built_in">MyClass</span>()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//初始化操作</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>![(C-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95&#x2F;image-20220519124129101.png)</p>
 
       
 
@@ -521,6 +577,15 @@ function showBtn(){
 
   
 <nav id="article-nav">
+  
+    <a href="/2022/05/19/2022-5-19/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          2022-5-19
+        
+      </div>
+    </a>
   
   
     <a href="/2022/05/14/%E5%A7%9A%E7%8E%89%E5%B3%B0%E5%8C%BB%E7%94%9F%E4%B8%AA%E4%BA%BA%E5%88%86%E4%BA%AB/" id="article-nav-older" class="article-nav-link-wrap">
@@ -701,6 +766,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">个人分享</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随便</a>
               </li>
             
             <div class="clearfix"></div>
