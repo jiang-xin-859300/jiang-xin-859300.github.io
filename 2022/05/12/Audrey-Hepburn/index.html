@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=light>
 
 
 
@@ -11,6 +11,8 @@
   <link rel="icon" href="/img/fluid.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Jiang Xin">
@@ -45,15 +47,17 @@
 <meta property="og:image" content="http://jiang-xin-859300.github.io/2022/05/12/Audrey-Hepburn/4d086e061d950a7b49072882683c43d0f3d3c9b8.jpeg">
 <meta property="og:image" content="http://jiang-xin-859300.github.io/2022/05/12/Audrey-Hepburn/4e4a20a4462309f7640727bf1ae32dfad6cad62e.jpeg">
 <meta property="article:published_time" content="2022-05-12T14:37:44.000Z">
-<meta property="article:modified_time" content="2022-11-24T11:49:55.160Z">
+<meta property="article:modified_time" content="2022-11-25T11:29:59.619Z">
 <meta property="article:author" content="Jiang Xin">
 <meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://jiang-xin-859300.github.io/2022/05/12/Audrey-Hepburn/0b6a0750f27d0605dd3a.png">
   
   
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
-  <title>Audrey Hepburn（奥黛丽·赫本） - Make a dream</title><meta name="robots" content="noindex">
+  
+  <title>Audrey Hepburn（奥黛丽·赫本） - Make a dream</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -91,7 +95,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"jiang-xin-859300.github.io","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"jiang-xin-859300.github.io","root":"/","version":"1.9.3","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -101,6 +105,21 @@
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
   
@@ -117,7 +136,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>Technology World</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -194,11 +213,32 @@
           
           
           
-            <li class="nav-item">
-              <a class="nav-link" href="/list/">
-                <i class="iconfont icon-user-fill"></i>
-                list
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-cliplist-fill"></i>
+                清单
               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/list/">
+                    
+                    清单列表
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/todo/">
+                    
+                    近期计划
+                  </a>
+                
+              </div>
             </li>
           
         
@@ -230,7 +270,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Audrey Hepburn（奥黛丽·赫本）"></span>
+            <span id="subtitle">Audrey Hepburn（奥黛丽·赫本）</span>
           
         </div>
 
@@ -270,6 +310,14 @@
     
 
     
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
     
   </div>
 
@@ -332,10 +380,10 @@
 <p>赫本出身高贵，但成长并非一帆风顺。</p>
 <p>她的母亲埃拉是荷兰皇室后裔，真正的蓝血贵族，奉行维多利亚式的教养理念，也重视品格与意志的锻造。</p>
 <p>在赫本的童年时期，母亲经常会带她去看画展，听歌剧，感受艺术的熏陶。母亲想在她身上延续一颗贵族的灵魂，但过度的严苛也让她从小缺失了母爱的温柔。</p>
-<p>母亲让赫本必须时刻注意自己的言行，一切按照淑女的标准。年仅7岁，她就被母亲送到千里之外的寄宿学校去学习芭蕾，锻炼独立的人格和坚强的品质。</p>
+<p>母亲让赫本必须时刻注意自己的言行，一切按照淑女的标准。年仅 7 岁，她就被母亲送到千里之外的寄宿学校去学习芭蕾，锻炼独立的人格和坚强的品质。</p>
 <img src="/2022/05/12/Audrey-Hepburn/1ad5ad6eddc451da52bc45f6de10736fd116325f.jpeg" srcset="/img/loading.gif" lazyload class="" title="img">
 
-<p>赫本的父亲罗斯顿在银行工作，却是个不负责任的荡子，而且还有右倾的政治意向，以至于在女儿6岁的时候，就离家出走，一去不返。</p>
+<p>赫本的父亲罗斯顿在银行工作，却是个不负责任的荡子，而且还有右倾的政治意向，以至于在女儿 6 岁的时候，就离家出走，一去不返。</p>
 <p>父亲的离去让童年的赫本感觉天塌了一半，也带给了赫本一生的伤痛，从而影响了她多年后的感情倾向，她渴望被爱，同样渴望爱别人。</p>
 <p>好在还有芭蕾。做一名首席芭蕾舞演员，是赫本人生中最初的梦想和精神支柱，日复一日的勤学苦练则磨炼了她的意志，让她有力量第一次走出心灵的沼泽。</p>
 <img src="/2022/05/12/Audrey-Hepburn/a1ec08fa513d2697e586d7673e1693f24216d8ae-16523664962159.jpeg" srcset="/img/loading.gif" lazyload class="" title="img">
@@ -379,7 +427,7 @@
 <p>但随着赫本事业的发展，两个人之间聚少离多，当爱情和事业成为单选题时，赫本理性地选择了后者。</p>
 <img src="/2022/05/12/Audrey-Hepburn/5fdf8db1cb1349548f294b5735a3b351d0094ac0.jpeg" srcset="/img/loading.gif" lazyload class="" title="img">
 
-<p>赫本的第一任丈夫是好莱坞演员梅尔·费勒。梅尔比赫本大12岁，高大英俊，成熟稳重，但显然，与妻子的明星光环相比，他的事业一直在走下坡路，这也为他们的婚姻埋下了隐忧。</p>
+<p>赫本的第一任丈夫是好莱坞演员梅尔·费勒。梅尔比赫本大 12 岁，高大英俊，成熟稳重，但显然，与妻子的明星光环相比，他的事业一直在走下坡路，这也为他们的婚姻埋下了隐忧。</p>
 <p>对于赫本来说，无论外界怎样看待她与梅尔的感情，她对梅尔都会保持信任与爱。童年时父爱的缺失，让她有了一个根深蒂固的择偶标准，那就是她喜欢能为她带来安全感，具有勇士精神的男性。</p>
 <p>而婚后的赫本，在银幕上的光芒却愈发耀眼。</p>
 <p>如果说《罗马假日》让观众对赫本的美丽一见钟情，那么《甜姐儿》与《修女传》就是真正触及她灵魂的作品，让她蜕变成了“伟大的女演员”，迎来了事业的巅峰。</p>
@@ -395,7 +443,7 @@
 
 <p>赫本的第二任丈夫多蒂是个意大利伯爵，也是一名心理医生，并执教于罗马大学。他们相逢在希腊的岛上，而他告诉她，他其实已经爱了她十六年。</p>
 <p>十六年前，她是银幕上的安妮公主，美人如花隔云端，他是情窦初开的少年，只能仰望她的光环，珍藏她的海报，把她当成心底最柔软的秘密。</p>
-<p>恋爱后，他很快在罗马向她求婚：“亲爱的公主，这个梦我做了16年，现在终于要实现了。”</p>
+<p>恋爱后，他很快在罗马向她求婚：“亲爱的公主，这个梦我做了 16 年，现在终于要实现了。”</p>
 <img src="/2022/05/12/Audrey-Hepburn/1b4c510fd9f9d72a6344ee5bb4c7093d359bbb4e.jpeg" srcset="/img/loading.gif" lazyload class="" title="img">
 
 <p>她感动得要落下眼泪。想起曾经出演的《罗马假日》，好像安妮公主再回罗马，终为爱情圆梦。</p>
@@ -443,8 +491,8 @@
 <p>然而，就是这样的她，能够在功成名就的时刻看淡名利，在事业鼎盛时远离好莱坞繁华的诱惑，一生坚持真诚和自我。即使不断被爱所伤，却永远相信爱情。</p>
 <p>尽管年少便缺乏温暖，却尽力温暖了更多的人；尽管功成名就，却身赴险境，用天使之爱去修补这残缺的世界。</p>
 <p>她就是奥黛丽·赫本。她的故事讲完了，但她的美丽与优雅，却依旧深深触动着我们的内心，也将被我们代代传颂，如星辰一般永恒。</p>
-<p>本文内容来源于艾略新书《奥黛丽·赫本：一辈子活在优雅里》（90周年珍藏纪念版）</p>
-<!-- flag of hidden posts -->
+<p>本文内容来源于艾略新书《奥黛丽·赫本：一辈子活在优雅里》（90 周年珍藏纪念版）</p>
+
                 
               </div>
             
@@ -458,16 +506,6 @@
 
 <span class="category-chains">
   
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E4%BA%BA%E7%89%A9/" class="category-chain-item">人物</a>
-  
-  
-
-      </span>
-    
   
 </span>
 
@@ -529,17 +567,6 @@
 
 
 
-              
-                <div class="post-prevnext my-3">
-                  <article class="post-prev col-6">
-                    
-                    
-                  </article>
-                  <article class="post-next col-6">
-                    
-                    
-                  </article>
-                </div>
               
             </div>
 
@@ -627,6 +654,30 @@
     </div>
   
   
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
   
   
 </div>
@@ -652,21 +703,6 @@
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-
-  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      
-        typing(text);
-      
-    })(window, document);
-  </script>
 
 
 
@@ -732,6 +768,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 
