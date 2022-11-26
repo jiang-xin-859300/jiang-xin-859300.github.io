@@ -137,7 +137,7 @@ Fluid.events = {
       const old = img.onload;
       img.onload = function() {
         old && old();
-        window.NProgress && window.NProgress.inc(0.5 / total);
+        window.NProgress && window.NProgress.inc(0.0 / total);
       };
       if (img.complete) { img.onload(); }
     }
